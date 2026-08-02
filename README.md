@@ -19,17 +19,18 @@ Pre-requisites
 ============================================================== 
 
 1. Install and configure Azure CLI in your system (Linux / Mac)
-   a. Install Azure CLI
+   a. Install Azure CLI \
       [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest)
    
-   b. Authenticate Azure using azure CLI
+   b. Authenticate Azure using azure CLI \
       [https://docs.aws.amazon.com/cli/v1/userguide/cli-authentication-user.html](https://learn.microsoft.com/en-us/cli/azure/authenticate-azure-cli?view=azure-cli-latest)
 
 2. Install and configure GIT
-   a. Install GIT
+   a. Install GIT 
       https://github.com/git-guides/install-git
-   b. Setup GIT
+   b. Setup GIT 
       https://docs.github.com/en/get-started/git-basics/set-up-git
-3. Install and configure terraform
+   
+3. Install and configure terraform 
    a. Install Terraform
       https://developer.hashicorp.com/terraform/install
