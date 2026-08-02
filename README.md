@@ -11,3 +11,7 @@ How DRBD Works
 Kernel Level: It runs inside the Linux kernel as a virtual block device driver, sitting below file systems and above physical storage. 
 Transparent Copy: When data is written to the primary server, DRBD saves it locally and sends a copy over the network to the secondary server at the same time. 
 Replication Modes: It supports synchronous (Protocol C) for safety, semi-synchronous (Protocol B), and asynchronous (Protocol A) for speed 
+
+
+Pre-requisites
+==============================================================
