@@ -14,6 +14,6 @@ Replication Modes: It supports synchronous (Protocol C) for safety, semi-synchro
 
 
 Pre-requisites
-============================================================== \
+============================================================== 
 
-# To be continued
+To be continued ------
