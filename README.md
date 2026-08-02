@@ -29,8 +29,10 @@ Pre-requisites
    a. Install GIT \
        https://github.com/git-guides/install-git \
    b. Setup GIT \
-       https://docs.github.com/en/get-started/git-basics/set-up-git \
+       https://docs.github.com/en/get-started/git-basics/set-up-git 
    
 3. Install and configure terraform \
    a. Install Terraform \
        https://developer.hashicorp.com/terraform/install
+
+   # To be continued .......
