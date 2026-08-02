@@ -27,7 +27,7 @@ Pre-requisites
 
 2. Install and configure GIT \
    a. Install GIT \
-       https://github.com/git-guides/install-git
+       https://github.com/git-guides/install-git \
    b. Setup GIT \
        https://docs.github.com/en/get-started/git-basics/set-up-git \
    
