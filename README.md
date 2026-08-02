@@ -1,6 +1,6 @@
 # Redhat Pacemaker active-passive HA cluster on Azure (RHEL10 2 node Master-slave cluster with DRBD - LAB environment) - IAC
 
- A high-availability setup managed by Pacemaker where service instances run in hierarchical roles: Master (primary/active) and Slave (secondary/standby). 
+ A high-availability setup managed by Pacemaker where service instances run in hierarchical roles: Master (primary/active) and Slave (secondary/standby). \
 **How it Works** 
 Master Role: Handles active operations, live data updates, or primary traffic processing. \
 Slave Role: Keeps a synchronised copy or stands ready to take over paired with storage replication tools like DRBD. \
