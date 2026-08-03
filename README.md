@@ -38,12 +38,10 @@ Pre-requisites
 Clone the GIT repository 
 ==============================================================
 
-01. Redhat pacemaker high-availability cluster (Active-passive) # Baseline \
-    git clone -b main [https://github.com/kvabhiraj/RedhatPacemakerClusterOnAWS.git
+01. Redhat pacemaker high-availability cluster ( Master-Slave ) # Baseline \
+    git clone -b main https://github.com/kvabhiraj/RedhatPacemakerClusterOnAzure.git
 
-
-
-Initiate IAC to deploy EC2 instances
+Initiate IAC to deploy Azure VM
 ==============================================================
 
 1. Login to azure cli
