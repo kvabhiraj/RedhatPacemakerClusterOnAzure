@@ -44,7 +44,7 @@ Clone the GIT repository
 Initiate IAC to deploy Azure VM
 ==============================================================
 
-1. Login to azure cli
+1. Login to azure cli \
     az login
     
 2. Update "Resource group" in variable.tf file in the below given block \
