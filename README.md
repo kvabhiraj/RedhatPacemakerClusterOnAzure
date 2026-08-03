@@ -51,7 +51,7 @@ Initiate IAC to deploy Azure VM
     variable "RG" { \
       type        = string \
       description = "Resource Group Name" \
-      default     = "<Resource group taken from azure portal>" # <=========== Update here \
+      default     = " Resource group taken from azure portal " # <=========== Update here \
 }
     
 3. Run bellow given terraform commands \
