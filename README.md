@@ -48,10 +48,10 @@ Initiate IAC to deploy Azure VM
     az login
     
 2. Update "Resource group" in variable.tf file in the below given block \
-    variable "RG" {
-      type        = string
-      description = "Resource Group Name"
-      default     = "<Resource group taken from azure portal>" # <=========== Update here
+    variable "RG" { \
+      type        = string \
+      description = "Resource Group Name" \
+      default     = "<Resource group taken from azure portal>" # <=========== Update here \
 }
     
 3. Run bellow given terraform commands \
