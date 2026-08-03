@@ -35,4 +35,30 @@ Pre-requisites
    a. Install Terraform \
        https://developer.hashicorp.com/terraform/install
 
+Clone the GIT repository 
+==============================================================
+
+01. Redhat pacemaker high-availability cluster (Active-passive) # Baseline \
+    git clone -b main [https://github.com/kvabhiraj/RedhatPacemakerClusterOnAWS.git
+
+
+
+Initiate IAC to deploy EC2 instances
+==============================================================
+
+1. Login to azure cli
+    az login
+    
+2. Update "Resource group" in variable.tf file in the below given block \
+    variable "RG" {
+      type        = string
+      description = "Resource Group Name"
+      default     = "<Resource group taken from azure portal>" # <=========== Update here
+}
+    
+3. Run bellow given terraform commands \
+    terraform init \
+    terraform plan \
+    terraform apply -auto-approve 
+
    # To be continued .......
